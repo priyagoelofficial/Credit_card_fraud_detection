@@ -1,0 +1,28 @@
+1. Data Collection and Preprocessing:
+
+The model is trained on historical transaction data, including features such as transaction amount, merchant information, location, time, and various transaction attributes.
+Data preprocessing involves tasks like data cleaning, scaling, and encoding to make the data suitable for machine learning algorithms.
+2. Feature Engineering:
+
+Feature engineering may involve creating new attributes or transforming existing ones to highlight patterns associated with fraudulent activity.
+Techniques like PCA (Principal Component Analysis) can help reduce dimensionality while retaining important information.
+3. Machine Learning Algorithms:
+
+Various machine learning algorithms are employed for credit card fraud detection, including:
+Logistic Regression
+Decision Trees
+Random Forest
+Support Vector Machines
+Neural Networks (e.g., deep learning models)
+4. Model Training and Validation:
+
+The model is trained on a labeled dataset containing examples of both legitimate and fraudulent transactions.
+Validation techniques like cross-validation and stratified sampling are used to ensure the model's performance on unseen data.
+5. Model Evaluation:
+
+The model's performance is evaluated using metrics such as accuracy, precision, recall, F1-score, and area under the receiver operating characteristic curve (AUC-ROC).
+Reducing false positives (legitimate transactions incorrectly classified as fraud) and false negatives (fraudulent transactions missed) is critical.
+6. Real-time Scoring and Deployment:
+
+The model is deployed in a real-time or batch processing system, where it scores incoming transactions for potential fraud.
+If a transaction is flagged as suspicious, it triggers further investigation or action, such as declining the transaction or notifying the cardholder.
